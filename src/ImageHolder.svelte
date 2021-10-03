@@ -151,16 +151,24 @@
 			@media screen and (min-width: 1024px) {
 				flex-wrap: wrap;
 				flex-direction: row;
-				justify-content: center;
+				justify-content: flex-start;
 				width: 100%;
 				position: relative;
 				height: 100%;
 			}	
+
+            @media screen and (min-width: 1280px) {
+                justify-content: flex-start;
+            }
 			
 			img {
 				margin: 10px;
                 width: calc(100% - 20px);
 				max-width: 100%;
+
+                @media screen and (min-width: 768px) {		
+					width: auto;
+				}
 
 				@media screen and (min-width: 1024px) {		
 					width: 40%;

@@ -151,9 +151,12 @@
 				flex-direction: row;
 				position: relative;
 				justify-content: flex-end;
-				width: 1140px;
 				margin: 70px auto;
 				margin: 15px auto;
+			}
+
+			@media screen and (min-width: 1280px) {
+				width: 1140px;
 			}
 		}
 	}
